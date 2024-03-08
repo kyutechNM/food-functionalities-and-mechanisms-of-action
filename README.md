@@ -9,8 +9,8 @@ We have proposed an in silico approach to comprehensively predict the functional
 
 Run: food_protein.ipynb 
 Input: Compound-protein-score data format json
-Food-constituent compound-weight^* data format json
-Output: score/{result}^**
+Food-constituent compound-weight<sup>*  data format json
+Output: score/{result}<sup>**
 
 * Food-constituent compounds were collected from FooDB. Weights were assigned according to the number of foods containing the constituent compounds and were calculated using Equation 3 in “Revealing comprehensive food functionalities and mechanisms of action through machine learning”.
 
