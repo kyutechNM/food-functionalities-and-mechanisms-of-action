@@ -7,10 +7,11 @@ We have proposed an in silico approach to comprehensively predict the functional
 
 #Aggregate component compound-protein interactions inferred by logistic regression analysis into food-target protein influence relationships.
 
-Run: food_protein.ipynb   
-Input: Compound-protein-score data format json  
-Food-constituent compound-weight<sup>*1</sup>  data format json  
-Output: score/{result}<sup>*2</sup>
+- Run: food_protein.ipynb   
+- Input: 
+  - Compound-protein-score data format json  
+  - Food-constituent compound-weight<sup>*1</sup>  data format json  
+- Output: score/{result}<sup>*2</sup>
 
 *1: Food-constituent compounds were collected from FooDB. Weights were assigned according to the number of foods containing the constituent compounds and were calculated using Equation 3 in “Revealing comprehensive food functionalities and mechanisms of action through machine learning”.  
 *2: Food-target protein influence relationships score (Influence score) was calculated using Equation 4 in “Revealing comprehensive food functionalities and mechanisms of action through machine learning”.
