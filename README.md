@@ -5,7 +5,7 @@ We have proposed an in silico approach to comprehensively predict the functional
 
 #You can run the proposed method on jupyter notebook with the following procedures: 
 
-#Aggregate component compound-protein interactions inferred by logistic regression analysis into food-target protein influence relationships.
+#Aggregate component compound-protein interactions inferred by logistic regression analysis into food-target protein influential relationships.
 
 - Run: food_protein.ipynb   
 - Input: 
