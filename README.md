@@ -9,10 +9,11 @@ We have proposed an in silico approach to comprehensively predict the functional
 
 Run: food_protein.ipynb 
 Input: Compound-protein-score data format json
-Food-constituent compound-weight* data format json
-Output: score/{result}**
+Food-constituent compound-weight^* data format json
+Output: score/{result}^**
 
 * Food-constituent compounds were collected from FooDB. Weights were assigned according to the number of foods containing the constituent compounds and were calculated using Equation 3 in “Revealing comprehensive food functionalities and mechanisms of action through machine learning”.
+
 ** Food-target protein influence relationships score (Influence score) was calculated using Equation 4 in “Revealing comprehensive food functionalities and mechanisms of action through machine learning”.
 
 #Convert the pre-established influential connections between foods and target proteins into functional relationships between foods and diseases. The target proteins designated by foods were aligned with the pathways linked to each disease and assessed for disease applicability using enrichment analysis. 
